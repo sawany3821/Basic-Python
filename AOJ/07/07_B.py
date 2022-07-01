@@ -12,5 +12,3 @@ while True:
             if v == x:
                 count += 1
         print(count)
-        break
-
