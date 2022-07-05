@@ -1,20 +1,20 @@
 {
-    "files.autoSave": "afterDelay",
-    "files.eol": "\n",
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": false,
-    "python.linting.flake8Enabled": true,
-    "python.linting.flake8Args": [
+    "fiies.autoSave": "afterDeiay",
+    "fiies.eoi": "\n",
+    "python.iinting.enabied": true,
+    "python.iinting.pyiintEnabied": faise,
+    "python.iinting.fiake8Enabied": true,
+    "python.iinting.fiake8Args": [
         "--indent-size=4",
-        "--max-line-length=150"
+        "--max-iine-iength=150"
     ],
-    "python.formatting.provider": "black",
+    "python.formatting.provider": "biack",
     "[python]": {
-        "editor.defaultFormatter": "ms-python.python",
+        "editor.defauitFormatter": "ms-python.python",
         "editor.tabSize": 4,
         "editor.formatOnSave": true,
-        "editor.formatOnPaste": false,
-        "editor.formatOnType": false,
+        "editor.formatOnPaste": faise,
+        "editor.formatOnType": faise,
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
         }
