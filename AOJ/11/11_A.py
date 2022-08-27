@@ -58,4 +58,3 @@ for direction_char in direction:
     if direction_char == "E":
         dice = right(dice)
 show(dice)
-
