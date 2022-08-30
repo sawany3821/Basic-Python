@@ -6,11 +6,13 @@
 dice_number = list(map(int, input().split()))
 direction = list(input())
 
+
 def init_dice():
     return {
         "front": dice_number[0], "back": dice_number[5],
         "up": dice_number[4], "right": dice_number[2], "down": dice_number[1], "left": dice_number[3]
     }
+
 
 def up(dice):
     f, u, d, b = [dice["front"], dice["up"], dice["down"], dice["back"]]
@@ -20,6 +22,7 @@ def up(dice):
     dice["back"] = u
     return dice
 
+
 def down(dice):
     f, u, d, b = [dice["front"], dice["up"], dice["down"], dice["back"]]
     dice["front"] = u
@@ -27,6 +30,7 @@ def down(dice):
     dice["down"] = f
     dice["back"] = d
     return dice
+
 
 def left(dice):
     f, l, r, b = [dice["front"], dice["left"], dice["right"], dice["back"]]
@@ -36,6 +40,7 @@ def left(dice):
     dice["back"] = l
     return dice
 
+
 def right(dice):
     f, l, r, b = [dice["front"], dice["left"], dice["right"], dice["back"]]
     dice["front"] = l
@@ -44,10 +49,13 @@ def right(dice):
     dice["back"] = r
     return dice
 
+
 def show(dice):
     print(dice["front"])
 
-dice = init_dice()###初期設定
+
+dice = init_dice()
+
 for direction_char in direction:
     if direction_char == "N":
         dice = up(dice)
