@@ -17,11 +17,3 @@ for d_key, d_value in d.items():
         c.update(e)
 for c_key, c_value in c.items():
     print(f"{c_key} : {c_value}")
-
-
-        
-"""
-dをforで回してaと比較してif文でその文字がもし入っていたらprint(f"{key} : {value}")で出力して、
-そうではなかったらcontinueにして条件分岐の中で回していく
-"""
-
