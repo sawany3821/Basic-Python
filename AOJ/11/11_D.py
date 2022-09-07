@@ -1,12 +1,3 @@
-"""
-手順
-①2つのダイスを作る
-②1つ目のダイスは固定させて、2つ目のダイヤを走査する
-③走査は（1と6固定で4通り）、（2と5固定で4通り）、（3と4固定で4通り）ある。逆もあるので3*4*2 = 24 通り
-④24通りあるなかでその中に含まれていたらprint("Yes")入っていなかった場合print("No")
-"""
-
-
 class Dice:
     def __init__(self, array):
         self.top = array[0]
@@ -68,7 +59,6 @@ surfaces_stack = [None] * n
 for i in range(n):
     surfaces_stack[i] = list(map(int, input().split()))
 
-# サイコロが一緒かどうか判定する
 for i in range(n - 1):
     for j in range(i + 1, n):
         dice = Dice(surfaces_stack[i])

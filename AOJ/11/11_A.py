@@ -1,8 +1,3 @@
-"""
-①入ってきた数字を割り当てる
-②指示された方向によってさいころを転がす関数を適応させる
-③上面の数字を表示させる
-"""
 dice_number = list(map(int, input().split()))
 direction = list(input())
 
