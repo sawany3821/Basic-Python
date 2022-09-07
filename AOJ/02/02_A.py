@@ -3,5 +3,5 @@ if a < b:
     print("a < b")
 elif a > b:
     print("a > b")
-else :
+else:
     print("a == b")
