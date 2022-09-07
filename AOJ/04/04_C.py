@@ -1,7 +1,7 @@
 while True:
     a, op, b = map(str, input().split())
     if op == "?":
-            break
+        break
     a = int(a)
     b = int(b)
     if op == "+":
@@ -12,6 +12,3 @@ while True:
         print(a * b)
     elif op == "/":
         print(a // b)
-    
-        
-    
