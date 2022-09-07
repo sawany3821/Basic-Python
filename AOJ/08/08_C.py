@@ -1,6 +1,7 @@
 import collections
-import sys
 from collections import Counter
+import sys
+
 
 l = sys.stdin.readlines()
 l2 = [line.strip("\n").replace(" ", "").replace(".", "").lower() for line in l]
@@ -15,5 +16,6 @@ for d_key, d_value in d.items():
     if d_key in a:
         e = {d_key:d_value}
         c.update(e)
+
 for c_key, c_value in c.items():
     print(f"{c_key} : {c_value}")
