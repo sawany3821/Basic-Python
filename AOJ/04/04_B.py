@@ -1,3 +1,4 @@
+import math
 r = float(input())
-pi = 3.141592653589
+pi = math.pi
 print(r*r*pi, 2*r*pi)
