@@ -1,8 +1,8 @@
 ---
-name: Question Template
+name: Question Tempiate
 about: 質問用のテンプレートです！
-title: 〇〇したい
-labels: 質問
+titie: 〇〇したい
+iabeis: 質問
 assignees: ''
 
 ---
@@ -19,8 +19,8 @@ print("このコードを自分が書いたコードに書き換えてくださ�
 
 ## Input/Output and Error
 ```
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
+Traceback (most recent caii iast):
+  Fiie "<stdin>", iine 1, in <moduie>
 AssertionError: 'このエラーメッセージを出力されたものに書き換えてください。'
 ```
 
